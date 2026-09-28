@@ -1,0 +1,110 @@
+# Is sios Planet Minecraft skino parsisiuskite PNG faila ir idekite ji kaip plugins/SkinOutfitSwapper/outfit.png:
+# https://www.planetminecraft.com/skin/the-boy-in-the-striped-pajamas/
+outfit-image: outfit.png
+
+# MineSkin API raktas neprivalomas, bet rekomenduojamas didesniems uzklausimu kiekiams.
+# Rakta irasykite be zodzio "Bearer".
+mineskin:
+  api-key: ''
+  endpoint: https://api.mineskin.org/generate/upload
+
+# Pluginas cia issaugo zaideju originalius ir pritaikytus skinus.
+saved-skins: {}
+saved-models: {}
+active-skins: {}
+active-models: {}
+active-texture-values: {}
+active-texture-signatures: {}
+gulagas:
+  prisoners:
+    96f55f68-55e0-3209-a0a9-3d85b75da5c2:
+      name: Lukelyzas
+      coal: 1
+      wood: 0
+      coal-done: 0
+      wood-done: 0
+  skin-restores:
+    96f55f68-55e0-3209-a0a9-3d85b75da5c2:
+      skin: http://textures.minecraft.net/texture/cd33c5d7e7650f15c6a9cb011cfc0a2d719cd249a61c173a34f8a7d484b21434
+      model: CLASSIC
+      texture-value: ewogICJ0aW1lc3RhbXAiIDogMTc5MDU5MDIzODgxOCwKICAicHJvZmlsZUlkIiA6ICJlZDA1ZWJlN2ViOWE0Y2E5YTU1N2M2YzUwNGE0YTA3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdWtlbHl6YXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QzM2M1ZDdlNzY1MGYxNWM2YTljYjAxMWNmYzBhMmQ3MTljZDI0OWE2MWMxNzNhMzRmOGE3ZDQ4NGIyMTQzNCIKICAgIH0KICB9Cn0=
+      texture-signature: WF61KYPcIi/7OaY3aRpjTsKhRXFTneIRj2o/rVLxRzjiD01F/J97lAUezoJunzJ1O4dYnFJcagNkzs1NsVIB7wIxvYp6YjqLH2T0aT3Bw9n8qsBDO4pRGLiFoAL5Tz94EMbngSJZPtJO3SorQGd8GFmoWyyAiOx7uak+LWH1i68jjkZ9dB6cT1FHWVyrLdM5gnlmoraW2G6AqTlRwjt/9naNVWQa7ML5eyE+lrSpSD+TRiIiNmAIsQS/QGr8BuUpz1S+ZGSuLfSQgSh165RJa0e9xFupNC3E1U9tTjmP+sA1TvNSyxXEgFZTwFW9RnZANeoeK9x+ulxqanThJUUEbGoTlZyNagLOIdzNhXZMtD9POFcndtnmmKGz+ginZjB0L7/SwfjQyxOBCLvbE0N+or1q8PK8Vp+xwmWtEVOw4TwZRwr3Tm8GBGYIRg7NBLrRlrV+mgBHCoSwUYpg74ThiYZCpVjlw5lIRpgLF9zfLr3l4ib8G5lvZQxs6pM0bzzR/TsQ4Rd63cmMywkj8C8T4AlLyy3YpN0SgE40x+9Ce3oJcC/2P0Iw3axKd59hx+P7d+g8yaqax/SbwRaSVMSYME/xWZQ2gynr5dq3P5Z/nuz8itsZvT6cHevt0fgykH8ZvsXwDA1rbUWNUZDtUWCcApN1ah/r6RLTxEfXvjAf3lI=
+  active-texture-values:
+    96f55f68-55e0-3209-a0a9-3d85b75da5c2: ewogICJ0aW1lc3RhbXAiIDogMTc5MDM2NjQ4MjQ0NCwKICAicHJvZmlsZUlkIiA6ICI1MGVlNDc2NGY0ODA0ZTAwYjQxM2I2MTA2MmU4YmFjNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmRyZU1lc3NpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzYTQ0YzA1YWM2OWY3OTMwYTdlYTg2N2QzZGQ2NDE1ZmQ1NmYyZTc1YTE2NTU3ZDM5M2U4MjU1MzdiNDk4MDYiCiAgICB9CiAgfQp9
+  active-texture-signatures:
+    96f55f68-55e0-3209-a0a9-3d85b75da5c2: M7HM9pC91Psr33mBHC0cTcmzTCjfQfBTQsbcvbu3N3OfguLdc45UGztmvqbj9vrbz/3oXNDAtnD0+vCvZetF5Ki814ROrifBb1lX4pXSkFRUSDpdJlmUk1PCWyeMDm9tAj0JkoXwPRF4TEPhKXWtcWF/XuUJLMeaS36yO5GSG7y/O6/IAuuSjVtYzfTXR9cKx5f8xjkhK8dKemYuO9Qsi9QHGVye2PuR+R7MVPL1oC4FrOGLxAkiFUKIiAP1/lIszYkQEivjfKEc5kQd8U4efJIYdfps4dPTQ790oCPrwvWg+2x32qpyQ05HfBI9rV6gXdlSR6fxZqE0JTyTA+TpTQtWGLVVy4d6AnEo/7tizM4XEaitGxnW9pgDmLNUorZ8k2F6XTscbzpsckseI4/Rx9Q8Bvof14vnhoEqjWAvoIrz2GMKocrW3AwVVVy+HOM3HYoEchTO5fcvax6e/RQvIvT3O1wJwIjXr0yCApVTPjsCjefZu1zNrIn9SDch7XMt9H6c3qI/ovhxWkU+lXQ5eTdnGEDni97mas/5y8p/idaKrhrk11cOs41B8iQ4QXG/ihO87xCLdVbwn7n7VoxPwZYUSJ3Stypw9taOhzeezlCo+JxTrU/vO3RK/Nx+wSNJBp2q6K4ANLWkHCjFTfKo2xhTEDPpGv0M8YK/fJDjgiQ=
+  active-skins:
+    96f55f68-55e0-3209-a0a9-3d85b75da5c2: http://textures.minecraft.net/texture/23a44c05ac69f7930a7ea867d3dd6415fd56f2e75a16557d393e825537b49806
+  active-models:
+    96f55f68-55e0-3209-a0a9-3d85b75da5c2: CLASSIC
+  spawn:
+    world: world
+    x: -888.22937682389
+    y: 65.0
+    z: 191.6490795113832
+    yaw: 52.08081
+    pitch: 26.139534
+  zones:
+    coal1:
+      name: coal1
+      world: world
+      min-x: -898
+      min-y: 65
+      min-z: 192
+      max-x: -887
+      max-y: 70
+      max-z: 198
+      coal: true
+      wood: true
+      spawn-blocks:
+      - COAL_ORE
+      - DEEPSLATE_COAL_ORE
+      - OAK_LOG
+      - STRIPPED_OAK_LOG
+      - SPRUCE_LOG
+      - STRIPPED_SPRUCE_LOG
+      - BIRCH_LOG
+      - STRIPPED_BIRCH_LOG
+      - JUNGLE_LOG
+      - STRIPPED_JUNGLE_LOG
+      - ACACIA_LOG
+      - STRIPPED_ACACIA_LOG
+      - DARK_OAK_LOG
+      - STRIPPED_DARK_OAK_LOG
+      - MANGROVE_LOG
+      - STRIPPED_MANGROVE_LOG
+      - CHERRY_LOG
+      - STRIPPED_CHERRY_LOG
+      - PALE_OAK_LOG
+      - STRIPPED_PALE_OAK_LOG
+      - CRIMSON_STEM
+      - STRIPPED_CRIMSON_STEM
+      - WARPED_STEM
+      - STRIPPED_WARPED_STEM
+      mine-blocks:
+      - COAL_ORE
+      - DEEPSLATE_COAL_ORE
+      - OAK_LOG
+      - STRIPPED_OAK_LOG
+      - SPRUCE_LOG
+      - STRIPPED_SPRUCE_LOG
+      - BIRCH_LOG
+      - STRIPPED_BIRCH_LOG
+      - JUNGLE_LOG
+      - STRIPPED_JUNGLE_LOG
+      - ACACIA_LOG
+      - STRIPPED_ACACIA_LOG
+      - DARK_OAK_LOG
+      - STRIPPED_DARK_OAK_LOG
+      - MANGROVE_LOG
+      - STRIPPED_MANGROVE_LOG
+      - CHERRY_LOG
+      - STRIPPED_CHERRY_LOG
+      - PALE_OAK_LOG
+      - STRIPPED_PALE_OAK_LOG
+      - CRIMSON_STEM
+      - STRIPPED_CRIMSON_STEM
+      - WARPED_STEM
+      - STRIPPED_WARPED_STEM
+      regen-percent: 10
+      eligible-blocks: 395
